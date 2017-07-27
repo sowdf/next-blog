@@ -54,6 +54,8 @@ var _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/Users/caozhihui/Desktop/code/next-blog/pages/index.js?entry';
+
 var url = require('../data/url');
 
 var Index = function (_React$Component) {
@@ -70,9 +72,21 @@ var Index = function (_React$Component) {
         value: function render() {
             var articleList = this.props.articleList;
 
-            console.log(articleList);
-            return _react2.default.createElement(_layout2.default, { title: 'blog' }, _react2.default.createElement('div', { className: 'm_article_list' }, articleList.map(function (item, index) {
-                return _react2.default.createElement(_Article2.default, (0, _extends3.default)({ key: index }, item));
+            return _react2.default.createElement(_layout2.default, { title: 'heaven', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 16
+                }
+            }, _react2.default.createElement('div', { className: 'm_article_list', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 17
+                }
+            }, articleList.map(function (item, index) {
+                return _react2.default.createElement(_Article2.default, (0, _extends3.default)({ key: index }, item, {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 20
+                    }
+                }));
             })));
         }
     }], [{

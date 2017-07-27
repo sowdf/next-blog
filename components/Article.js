@@ -1,8 +1,9 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default class Article extends React.Component{
     render(){
-        let {title,showTime,description} = this.props;
+        let {_id,title,showTime,description} = this.props;
         return(
             <article>
                 <h2><a href="">{title}</a></h2>
@@ -11,7 +12,7 @@ export default class Article extends React.Component{
                     {description}
                 </div>
                 <div className="read_more">
-                    <a href=""> >> 阅读剩余部分  </a>
+                    <a href={`/article/${_id}`}>>> 阅读剩余部分 </a>
                 </div>
             </article>
         )

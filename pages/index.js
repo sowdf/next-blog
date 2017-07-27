@@ -12,9 +12,8 @@ class Index extends React.Component{
     }
     render(){
         let {articleList} = this.props;
-        console.log(articleList);
         return (
-            <Layout title="blog">
+            <Layout title="heaven">
                 <div className="m_article_list">
                     {
                         articleList.map((item,index)=>{

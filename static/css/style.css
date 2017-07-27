@@ -123,3 +123,16 @@ body {
       color: #0099FF; }
       .m_article_list .read_more a:hover {
         color: #3354DD; }
+
+.m_article_view {
+  margin: 0 18% 10%; }
+  .m_article_view article {
+    padding: 20px 40px;
+    display: block;
+    margin-top: 30px;
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #ccc;
+    line-height: 28px;
+    font-size: 14px; }
