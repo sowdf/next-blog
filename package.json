@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "stasrt": "NODE_ENV=production node server.js"
+  },
+  "env": {
+    "NODE_ENV": "production"  // 环境参数，当前指定为生产环境
   },
   "repository": {
     "type": "git",
