@@ -11,12 +11,15 @@ class Article extends React.Component{
         return {content:content}
     }
     render(){
-        let {content,title} = this.props.content;
+        let {html,title} = this.props.content;
         return (
             <Layout title={title}>
+                <link rel="stylesheet" href="/static/css/editormd.css"/>
+                <link rel="stylesheet" href="/static/css/style_markdown.css"/>
                 <div className="m_article_view">
-                    <article dangerouslySetInnerHTML={{__html:content}}>
-                    </article>
+                    <div className="markdown-body editormd-preview-container">
+                        <article dangerouslySetInnerHTML={{__html:html}}></article>
+                    </div>
                 </div>
             </Layout>
         )
