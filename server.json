@@ -1,5 +1,5 @@
 {
-  "name"        : "fis-receiver",  // 应用名称
+  "name"        : "blog",  // 应用名称
   "script"      : "./server.js",  // 实际启动脚本
   "env": {
     "NODE_ENV": "production"  // 环境参数，当前指定为生产环境
