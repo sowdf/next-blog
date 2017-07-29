@@ -6,7 +6,7 @@ export default class Article extends React.Component{
         let {_id,title,showTime,description} = this.props;
         return(
             <article>
-                <h2><a href="">{title}</a></h2>
+                <h2><a href={`/article/${_id}`}>{title}</a></h2>
                 <p className="info">时间: {showTime}| <a>评论</a></p>
                 <div className="view" dangerouslySetInnerHTML={{__html:description}}>
                 </div>
