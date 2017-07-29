@@ -9,7 +9,7 @@
     "start": "NODE_ENV=production node server.js"
   },
   "env_pro": {
-    "NODE_ENV": "production"  // 环境参数， 当前指定为生产环境
+    "NODE_ENV": "production"
   },
   "repository": {
     "type": "git",
