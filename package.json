@@ -8,7 +8,7 @@
     "build": "next build",
     "stasrt": "NODE_ENV=production node server.js"
   },
-  "env": {
+  "env_pro": {
     "NODE_ENV": "production"  // 环境参数， 当前指定为生产环境
   },
   "repository": {
